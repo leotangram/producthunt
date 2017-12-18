@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # patch '/products/:id', to: 'products#update'
   # delete '/products/:id', to: 'products#destroy'
 
-  resources :products, except: [:index]
+  resources :products
   # resources :products, only: [:index]
   # resources :products, except: [:index, :create, :index]
   root 'products#index'
