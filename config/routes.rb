@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'sessions/new'
 
+=======
+  resources :users, only: [:new, :create]
+>>>>>>> ea736d5d442343e85e4f97409c8d669b920bd94a
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   # get	'/products', to: 'products#index'
