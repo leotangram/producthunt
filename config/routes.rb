@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   resources :products, except: [:index]
   # resources :products, only: [:index]
   # resources :products, except: [:index, :create, :index]
+  root 'products#index'
 end
