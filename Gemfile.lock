@@ -222,7 +222,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  aws-sdk (~> 2.3)
+  aws-sdk
   bcrypt (~> 3.1.7)
   bootstrap (~> 4.0.0.beta2.1)
   byebug
