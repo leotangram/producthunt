@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "~> 2.3.0"
+
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -38,6 +38,9 @@ gem 'annotate'
 
 gem "paperclip", "~> 5.0.0"
 gem 'aws-sdk'
+
+gem 'xmlrpc'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
